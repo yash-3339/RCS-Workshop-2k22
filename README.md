@@ -48,7 +48,7 @@ This should launch the Coppeliasim application
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
-Generally teleop_twis_keyboard will be pre-instlled in the ROS installation procedure. But if you run into some error while launching, there are two easiest and common methods to troubleshoot this issue.
+Generally teleop_twist_keyboard will be pre-instlled in the ROS installation procedure. But if you run into some error while launching, there are two easiest and common methods to troubleshoot this issue.
 
 1. Check whether the package is installed in some other directory and delete the package in that directory.
 2. Check whether the package is present in /opt/ros/noetic/lib path and the **teleop_twist_keyboard.py** file is executable.
