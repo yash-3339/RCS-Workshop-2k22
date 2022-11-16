@@ -24,8 +24,8 @@ function sysCall_actuation()
         vc = vel.linear.x + r*vel.angular.z
 
         sim.setJointTargetVelocity(h1, vl)
-        sim.setJointTargetVelocity(h2, -vc)
-        sim.setJointTargetVelocity(h3, -vc)
+        sim.setJointTargetVelocity(h2, vc)
+        sim.setJointTargetVelocity(h3, vc)
         sim.setJointTargetVelocity(h4, vl)
     end
 
