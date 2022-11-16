@@ -9,6 +9,18 @@ Implement the following commands in your Ubuntu 20.04 terminal to setup your sys
 * ROS Noetic
 * Coppeliasim V4.3 
 
+## Run the project  
+* Clone this repository in your home folder
+```
+git clone https://github.com/KarthikMothiki/RCS-Workshop-2k22.git
+```
+* Open the repository, make and source  
+```
+cd /catkin_ws/
+catkin_make
+source devel/setup.bash
+```
+
 ## Testing the System Setup
 1. ROS Version
 ```
