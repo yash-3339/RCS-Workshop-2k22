@@ -67,6 +67,6 @@ Generally teleop_twist_keyboard will be pre-instlled in the ROS installation pro
 -- If it isn't, run the following commands
 ```
 cd /opt/ros/noetic/lib/teleop_twist_keyboard
-sudo chmod +x teleop_twist_keyboar.py
+sudo chmod +x teleop_twist_keyboard.py
 ```
 This should do the work.
